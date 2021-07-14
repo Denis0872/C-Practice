@@ -259,6 +259,8 @@ int main()
     if (average > 7) {
         cout << "\nВы новичок " << endl;
     }
+
+
     else{
         cout << "\nВы средний стрелок " << endl;
     }
