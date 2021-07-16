@@ -16,6 +16,7 @@ using namespace std;
 //int main()
 //{
 //	//SetConsoleOutputCp(1251);
+// 
 //	
 //	system("chcp 1251");
 //	double x;
