@@ -85,29 +85,31 @@ long double firBinSearch(double a, int n)
 int main()
 {
 	SetConsoleOutputCP(1251);
-	double final;
-	double digit;
-	int sqrtDigit;
+	double final=0;
+	double digit=0;
+	int sqrtDigit=0;
 	int presision = 6;
 	cout << "Введите основное  число от 1 до 1000" << endl;
 	cin >> digit;
-	if (1 < digit < 1000)
+	if (1 <= digit&& digit<= 1000)
 	{
 		cout << "Введите значение степени корня от 1 до 10" << endl;
 		cin >> sqrtDigit;
-		if (1 < sqrtDigit < 10)
+		if (1 <=sqrtDigit&& 10>= sqrtDigit)
 		{
 			final = firBinSearch(digit, sqrtDigit);
 			cout << fixed << setprecision(6) << double(final) << endl;
 		}
 		else
 		{
-			"введите правильный диапозон";
+			cout << "введите правильный диапозон" << endl;
 		}
 
 	}
 	else
 	{
-		"введите правильный диапозон";
+		cout << "введите правильный диапозон" << endl;
 	}
 }
+//Task4
+
