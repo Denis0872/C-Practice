@@ -1,2 +1,4 @@
 ﻿  C++Practice3.cpp
+C:\Users\Kompanion78\source\repos\C++Practice\C++Practice3\C++Practice3\C++Practice3.cpp(193,9): warning C4101: res: неиспользованная локальная переменная
+C:\Users\Kompanion78\source\repos\C++Practice\C++Practice3\C++Practice3\C++Practice3.cpp(214): warning C4715: IterFunc: значение возвращается не при всех путях выполнения
   C++Practice3.vcxproj -> C:\Users\Kompanion78\source\repos\C++Practice\C++Practice3\Debug\C++Practice3.exe

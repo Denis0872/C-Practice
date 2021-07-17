@@ -106,23 +106,23 @@ int main()
    
        cout << "нод = " << a << endl;*/
     //Task3
-   //srand(time(NULL));
-   //int a, b, c;
-   //int k = 0, n = 5;
-   //for (int i = 1;i <= n;i++) {
-   //    a = rand() % 10 + 1; b = rand() % 10 + 1;
-   //    cout << a << " * " << b << " = ";
-   //    cin >> c;
-   //    if (a * b != c)
-   //    {
-   //        k++; 
-   //        cout << "Error! ";
-   //        cout << a << " * " << b << " = " << a * b << endl;
-   //    }
+   srand(time(NULL));
+   int a, b, c;
+   int k = 0, n = 5;
+   for (int i = 1;i <= n;i++) {
+       a = rand() % 10 + 1; b = rand() % 10 + 1;
+       cout << a << " * " << b << " = ";
+       cin >> c;
+       if (a * b != c)
+       {
+           k++; 
+           cout << "Error! ";
+           cout << a << " * " << b << " = " << a * b << endl;
+       }
 
-   //}
-   //cout << "Count error: " << k << endl;
-   //return 0;
+   }
+   cout << "Count error: " << k << endl;
+   return 0;
     //Task4
 
     //int k, m, s=0;
@@ -213,7 +213,7 @@ int main()
     cout << "2 копейки = " << count_twocop << endl;
     cout << "1 копейка = " << count_onecop << endl;*/
     //ControlTask4(стрельба по мишени)
-    int centerx = 0;
+  /*  int centerx = 0;
     int centery = 0;
     int shootx=0;
     int shooty=0;
@@ -265,6 +265,6 @@ int main()
         cout << "\nВы средний стрелок " << endl;
     }
 
-    return 0;
+    return 0;*/
 }
 
