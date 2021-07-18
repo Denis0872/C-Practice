@@ -1,5 +1,0 @@
-﻿  C++Practice3.cpp
-C:\Users\Kompanion78\source\repos\C++Practice\C++Practice3\C++Practice3\C++Practice3.cpp(262,34): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\Kompanion78\source\repos\C++Practice\C++Practice3\C++Practice3\C++Practice3.cpp(262,31): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\Kompanion78\source\repos\C++Practice\C++Practice3\C++Practice3\C++Practice3.cpp(262,28): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-  C++Practice3.vcxproj -> C:\Users\Kompanion78\source\repos\C++Practice\C++Practice3\Debug\C++Practice3.exe
