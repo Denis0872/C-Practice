@@ -355,3 +355,30 @@ void ProizvMezduMaxMin(const int Arr[], const int N) {
             } 
     cout << proizv << "произведение чисел между максимальным и минимальным индексом" << endl;
 }
+//Control Task2
+int main()
+{
+	vector<int> max_vect(int N, int array1[], int array2[]);
+	int a[] = { 1,2,3,4,5,6,7,2 };
+	int b[] = { 7,6,5,4,3,2,1,3 };
+
+	int kc = sizeof(a) / sizeof(a[0]); 
+
+	max_vect(kc, a, b);
+
+}
+vector<int> max_vect(int N, int array1[], int array2[]) 
+{
+
+	vector<int> data;
+	for (int i = 0; i < N; i++)
+	{
+		if (array1[i] >= array2[i])
+			
+			data.push_back(array1[i]);
+	else {data.push_back(array2[i]);}
+		cout << data[i];
+	}
+	
+	return data;
+}
