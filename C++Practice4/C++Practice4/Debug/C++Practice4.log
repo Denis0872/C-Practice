@@ -1,0 +1,3 @@
+﻿  C++Practice4.cpp
+C:\Users\Kompanion78\source\repos\C++Practice\C++Practice4\C++Practice4\C++Practice4.cpp(96,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  C++Practice4.vcxproj -> C:\Users\Kompanion78\source\repos\C++Practice\C++Practice4\Debug\C++Practice4.exe
