@@ -86,7 +86,17 @@ int main()
 	cin >> c;
 
 	res=Myroot(a, b, c, k, l);
-	cout << "Возврат значения -1-корней нет, 0-корни одинаковы, 1-есть два корня. Значение:  " << res<< endl;
+	if (res == 1) {
+		cout << "Корней  два: первый корень " << k << " второй корень " << l << endl;
+	}
+	else if(res==0){
+		cout << " корни одинаковы " << k << " " << l << endl;
+	}
+	else if (res==-1){
+		cout << " корней нет " << endl;
+	}
+
+	//cout << "Возврат значения -1-корней нет, 0-корни одинаковы, 1-есть два корня. Значение:  " << res<< endl;
 	
 }
 int Myroot(double a, double b, double c, double& k, double& l)
@@ -100,14 +110,14 @@ int Myroot(double a, double b, double c, double& k, double& l)
 	else if (d == 0)
 	{
 		k = l = (-b + sqrt(d)) / 2*a;
-		cout << "оба корня одинаковы: " << k << endl;
+		
 		return 0;
 		
 	}
 	else (d >= 0);
 	k = (-b + sqrt(d)) / 2 * a;
 	l = (-b - sqrt(d)) / 2 * a;
-	cout << "корень первый:  " << k << "корень второй:  " << l<< endl;
+	
 		return 1;	
 }
 //ControlTask2
