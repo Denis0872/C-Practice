@@ -238,126 +238,127 @@ int main()
     cout << "\nBad: \n";
     for (int i = 0; i < v2.size(); i++)
     { cout << v2[i] <<" \n" << ends; }*/
-//Control Task1
-    void arraySummaChisel(const int Arr[], const int N);
-    void positNegatChisla(const int Arr[], const int N);
-    void chetIndex(const int Arr[], const int N);
-    void NeChetIndex(const int Arr[], const int N);
-    void IndexMaxChisla(const int Arr[], const int N);
-    void IndexMinChisla(const int Arr[], const int N);
-    void ProizvMezduMaxMin(const int Arr[], const int N);
-    int n = 5;
-    int mas[]={1,2,3,4, -3};
-    arraySummaChisel(mas, n);
-    positNegatChisla(mas, n);
-    chetIndex(mas, n);
-    NeChetIndex(mas, n);
-    IndexMaxChisla(mas, n);
-    IndexMinChisla(mas, n);
-    ProizvMezduMaxMin(mas, n);
-}
-void arraySummaChisel(const int Arr[], const int N) {
-            double middle;
-            int s=0;
-    for (int i = 0; i < N; i++)
-        {
-            
-            s += Arr[i];
-            middle = s / static_cast<double>(N);
-            
-        }
-            cout << s << "сумма чисел" << endl;
-            cout << middle << "среднее число" << endl;
-}
-void positNegatChisla(const int Arr[], const int N)
-{
-    int sposit = 0;
-    int snegat = 0;
-
-    for (int i = 0; i < N; i++)
-        {
-
-            if (Arr[i] > 0) {
-            sposit += Arr[i];
-            }
-            else
-            snegat += Arr[i];            
-        }
-    cout << sposit << "сумма положительных чисел" << endl;
-    cout << snegat << "сумма отрицательных чисел" << endl;
-}
-void chetIndex(const int Arr[], const int N) {
-    int schet = 0;
-    for (int i = 0; i < N; i += 2)
-        {
-           cout << Arr[i] << "чётный индекс "<<endl;
-           schet += Arr[i];       
-        }
-
-}
-void NeChetIndex(const int Arr[], const int N) {
-    int nechet = 0;
-    for (int i = 1; i < N; i += 2)
-    {
-        cout << Arr[i] << "нечётный индекс " << endl;
-        nechet += Arr[i];
-    }
-}
-int max1;
-int i_max=0;
-void IndexMaxChisla(const int Arr[], const int N) {
-     
-    for (int i = 0; i < N; i++) 
-    {
-            max1 = Arr[0];
-            if (Arr[i] > max1)
-            {
-                max1 =Arr[i] ;
-                i_max = i;
-            } 
-    }
-cout << i_max << "индекс максимального числа" << endl;
-}
-int min1;
- int i_min = 0;
-void IndexMinChisla(const int Arr[], const int N) {
-   
-    for (int i = 0; i < N; i++)
-    {
-        min1 = Arr[0];
-        if (Arr[i] < min1)
-        {
-            min1 = Arr[i];
-            i_min = i;
-        }
-    }
-    cout << i_min << "индекс минимального числа" << endl;
-}
-void ProizvMezduMaxMin(const int Arr[], const int N) {
-    int proizv = 0;
-    if (i_min < i_max) {
-
-            proizv = 1;
-            for (int i = i_min; i <= i_max;i++) {
-                
-                proizv *= Arr[i];
-
-            }
-
-            cout << proizv << "произведение чисел между максимальным и минимальным индексом " << endl;
-        }
-        else
-        proizv = 1;
-            for (int i = i_max; i <= i_min;i++) {
-               
-                proizv *= Arr[i];
-
-            } 
-    cout << proizv << "произведение чисел между максимальным и минимальным индексом" << endl;
-}
+////Control Task1
+//    void arraySummaChisel(const int Arr[], const int N);
+//    void positNegatChisla(const int Arr[], const int N);
+//    void chetIndex(const int Arr[], const int N);
+//    void NeChetIndex(const int Arr[], const int N);
+//    void IndexMaxChisla(const int Arr[], const int N);
+//    void IndexMinChisla(const int Arr[], const int N);
+//    void ProizvMezduMaxMin(const int Arr[], const int N);
+//    int n = 5;
+//    int mas[]={1,2,3,4, -3};
+//    arraySummaChisel(mas, n);
+//    positNegatChisla(mas, n);
+//    chetIndex(mas, n);
+//    NeChetIndex(mas, n);
+//    IndexMaxChisla(mas, n);
+//    IndexMinChisla(mas, n);
+//    ProizvMezduMaxMin(mas, n);
+//}
+//void arraySummaChisel(const int Arr[], const int N) {
+//            double middle;
+//            int s=0;
+//    for (int i = 0; i < N; i++)
+//        {
+//            
+//            s += Arr[i];
+//            middle = s / static_cast<double>(N);
+//            
+//        }
+//            cout << s << "сумма чисел" << endl;
+//            cout << middle << "среднее число" << endl;
+//}
+//void positNegatChisla(const int Arr[], const int N)
+//{
+//    int sposit = 0;
+//    int snegat = 0;
+//
+//    for (int i = 0; i < N; i++)
+//        {
+//
+//            if (Arr[i] > 0) {
+//            sposit += Arr[i];
+//            }
+//            else
+//            snegat += Arr[i];            
+//        }
+//    cout << sposit << "сумма положительных чисел" << endl;
+//    cout << snegat << "сумма отрицательных чисел" << endl;
+//}
+//void chetIndex(const int Arr[], const int N) {
+//    int schet = 0;
+//    for (int i = 0; i < N; i += 2)
+//        {
+//           cout << Arr[i] << "чётный индекс "<<endl;
+//           schet += Arr[i];       
+//        }
+//
+//}
+//void NeChetIndex(const int Arr[], const int N) {
+//    int nechet = 0;
+//    for (int i = 1; i < N; i += 2)
+//    {
+//        cout << Arr[i] << "нечётный индекс " << endl;
+//        nechet += Arr[i];
+//    }
+//}
+//int max1;
+//int i_max=0;
+//void IndexMaxChisla(const int Arr[], const int N) {
+//     
+//    for (int i = 0; i < N; i++) 
+//    {
+//            max1 = Arr[0];
+//            if (Arr[i] > max1)
+//            {
+//                max1 =Arr[i] ;
+//                i_max = i;
+//            } 
+//    }
+//cout << i_max << "индекс максимального числа" << endl;
+//}
+//int min1;
+// int i_min = 0;
+//void IndexMinChisla(const int Arr[], const int N) {
+//   
+//    for (int i = 0; i < N; i++)
+//    {
+//        min1 = Arr[0];
+//        if (Arr[i] < min1)
+//        {
+//            min1 = Arr[i];
+//            i_min = i;
+//        }
+//    }
+//    cout << i_min << "индекс минимального числа" << endl;
+//}
+//void ProizvMezduMaxMin(const int Arr[], const int N) {
+//    int proizv = 0;
+//    if (i_min < i_max) {
+//
+//            proizv = 1;
+//            for (int i = i_min; i <= i_max;i++) {
+//                
+//                proizv *= Arr[i];
+//
+//            }
+//
+//            cout << proizv << "произведение чисел между максимальным и минимальным индексом " << endl;
+//        }
+//        else
+//        proizv = 1;
+//            for (int i = i_max; i <= i_min;i++) {
+//               
+//                proizv *= Arr[i];
+//
+//            } 
+//    cout << proizv << "произведение чисел между максимальным и минимальным индексом" << endl;
+//}
 //Control Task2
-int main()
-{
+vector<int> max_vect(int N, int array1[], int array2[]);
+
+
 	vector<int> max_vect(int N, int array1[], int array2[]);
 	int a[] = { 1,2,3,4,5,6,7,2 };
 	int b[] = { 7,6,5,4,3,2,1,3 };
