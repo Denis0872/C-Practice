@@ -131,7 +131,7 @@ int main()
 
     cout << "Введите первое время: \n";
     Time t1 = inputTime();
-    cout << "секунды: " << t1.timeSec(t1) << endl << endl;
+    cout << "секунды: " << t1.timeSec(t1) << endl;
 
     cout << "Введите второе время: \n";
     Time t2 = inputTime();
