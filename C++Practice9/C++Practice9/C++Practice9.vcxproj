@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++Practice9.cpp" />
+    <ClCompile Include="ExecutingFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClassFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
