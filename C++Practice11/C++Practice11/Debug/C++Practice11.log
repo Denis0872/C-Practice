@@ -1,0 +1,4 @@
+﻿  C++Practice11.cpp
+C:\Users\Kompanion78\source\repos\C++Practice11\C++Practice11\Time.h(75,11): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Kompanion78\source\repos\C++Practice11\C++Practice11\Time.h(92,11): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  C++Practice11.vcxproj -> C:\Users\Kompanion78\source\repos\C++Practice11\Debug\C++Practice11.exe
